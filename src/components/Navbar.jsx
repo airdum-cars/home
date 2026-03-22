@@ -13,7 +13,7 @@ const Navbar = () => {
           <li><a href="#home">Home</a></li>
           <li><a href="#catalogue">Catalogue</a></li>
         </ul>
-        <div style={{ display: 'flex', gap: '10px' }}>
+        <div className="nav-actions">
           <a href={cataloguePdf} download="Airdum-Catalogue.pdf" className="btn btn-outline">
             Download Catalogue
           </a>

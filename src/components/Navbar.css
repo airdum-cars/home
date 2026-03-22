@@ -35,8 +35,23 @@
   color: var(--text-primary);
 }
 
+.nav-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
 @media (max-width: 768px) {
   .nav-links {
     display: none;
+  }
+
+  .nav-actions button {
+    display: none;
+  }
+
+  .nav-actions a.btn {
+    font-size: 12px;
+    padding: 0.4rem 0.8rem;
   }
 }
