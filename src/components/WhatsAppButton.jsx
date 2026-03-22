@@ -3,15 +3,15 @@ import './WhatsAppButton.css';
 
 const WhatsAppButton = () => {
   // Replace with the actual WhatsApp number and message
-  const phoneNumber = "1234567890"; 
-  const message = "Hello AutoElite, I'm interested in your car accessories!";
+  const phoneNumber = "7011209823";
+  const message = "Hello Airdum Enterprises, I'm interested in your car accessories!";
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
   return (
-    <a 
-      href={whatsappUrl} 
-      target="_blank" 
-      rel="noopener noreferrer" 
+    <a
+      href={whatsappUrl}
+      target="_blank"
+      rel="noopener noreferrer"
       className="whatsapp-float"
       aria-label="Chat with us on WhatsApp"
     >

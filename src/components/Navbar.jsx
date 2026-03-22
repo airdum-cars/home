@@ -1,5 +1,6 @@
 import React from 'react';
 import './Navbar.css';
+import cataloguePdf from '../assets/catalogue.pdf';
 
 const Navbar = () => {
   return (
@@ -12,15 +13,20 @@ const Navbar = () => {
           <li><a href="#home">Home</a></li>
           <li><a href="#catalogue">Catalogue</a></li>
         </ul>
-        <button
-          className="btn btn-outline"
-          onClick={() => {
-            const message = "Hello Airdum Enterprises, I have a query regarding your car accessories.";
-            window.open(`https://wa.me/1234567890?text=${encodeURIComponent(message)}`, '_blank');
-          }}
-        >
-          Contact Us
-        </button>
+        <div style={{ display: 'flex', gap: '10px' }}>
+          <a href={cataloguePdf} download="Airdum-Catalogue.pdf" className="btn btn-outline">
+            Download Catalogue
+          </a>
+          <button
+            className="btn btn-outline"
+            onClick={() => {
+              const message = "Hello Airdum Enterprises, I have a query regarding your car accessories.";
+              window.open(`https://wa.me/7011209823?text=${encodeURIComponent(message)}`, '_blank');
+            }}
+          >
+            Contact Us
+          </button>
+        </div>
       </div>
     </nav>
   );

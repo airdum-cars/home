@@ -20,7 +20,7 @@ const ProductCard = ({ product, onClick }) => {
   const handleBuyNow = (e) => {
     e.stopPropagation();
     const message = `Hello, I'm interested in buying: ${product.title} (₹${product.price.toFixed(2)})`;
-    window.open(`https://wa.me/1234567890?text=${encodeURIComponent(message)}`, '_blank');
+    window.open(`https://wa.me/7011209823?text=${encodeURIComponent(message)}`, '_blank');
   };
 
   return (
