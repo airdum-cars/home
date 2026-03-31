@@ -21,7 +21,7 @@ export const products = [
     description: "Chain Lube Spray is a high-performance lubricant designed to reduce friction and wear on motorcycle chains. Its advanced formula penetrates deep into the chain links, providing long-lasting protection against rust and corrosion.",
     price: 199.50,
     image: "assets/lube.png",
-    category: "ADE101"
+    category: "ADE090"
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const products = [
     description: "Chain Cleaner Spray is a powerful degreaser designed to remove dirt, grime, and old lubricant from motorcycle chains. Its fast-acting formula dissolves tough deposits, ensuring optimal chain performance and longevity.",
     price: 199.50,
     image: "assets/cleaner.png",
-    category: "ADE102"
+    category: "ADE090"
   },
   {
     id: 5,
@@ -45,7 +45,7 @@ export const products = [
     description: "Steering Cover is a high-quality accessory designed to enhance the look and feel of your car's steering wheel. Made from premium materials, it provides a comfortable grip and protects the steering wheel from wear and tear.",
     price: 450,
     image: "assets/steering_cover.jpeg",
-    category: "ADE200"
+    category: "ADE120"
   },
   {
     id: 7,
@@ -94,5 +94,13 @@ export const products = [
     price: 350,
     image: "assets/neckrest.jpeg",
     category: "ADE210"
+  },
+   {
+    id: 13,
+    title: "Crystal Gear Knob 10 cm",
+    description: "Crystal Gear Knob available in all colors and sizes",
+    price: 699,
+    image: "assets/neckrest.png",
+    category: "ADE250"
   }
 ];
