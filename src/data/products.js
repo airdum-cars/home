@@ -1,5 +1,95 @@
 export const products = [
   {
+    id: 14,
+    title: "Helicoper Solar Perfume Silver",
+    description: "Helicoper Solar Perfume Silver",
+    price: 699,
+    image: "assets/heliblack.jpg",
+    category: "ADE220"
+  },
+
+  {
+    id: 15,
+    title: "Solar Perfume (Tyre)",
+    description: "Solar Perfume (Tyre)",
+    price: 799,
+    image: "assets/tire.jpg",
+    category: "ADE300"
+  },
+  {
+    id: 16,
+    title: "Solar Perfume (Plain/ Jet) Red",
+    description: "Helicoper Solar Perfume Red",
+    price: 699,
+    image: "assets/helired.jpg",
+    category: "ADE305"
+  }, {
+    id: 17,
+    title: "Intelligent Aromatherapy Solar Perfume Diffuser",
+    description: "Intelligent Aromatherapy Solar Perfume Diffuser",
+    price: 899,
+    image: "assets/roboblue.jpg",
+    category: "ADE410"
+  }, {
+    id: 18,
+    title: "Solar Perfume (Flag)",
+    description: "Solar Perfume (Flag)",
+    price: 699,
+    image: "assets/flag.jpg",
+    category: "ADE320"
+  }, {
+    id: 19,
+    title: "Design Solar Perfume (Car/ Ship)",
+    description: "Design Solar Perfume (Car/ Ship)",
+    price: 599,
+    image: "assets/carp.jpg",
+    category: "ADE190"
+  }, {
+    id: 20,
+    title: "Solar Perfume (Bike)",
+    description: "Solar Perfume (Bike)",
+    price: 700,
+    image: "assets/bike.jpg",
+    category: "ADE440"
+  }, {
+    id: 21,
+    title: "Solar Perfume (Lbubu)",
+    description: "Solar Perfume (Lbubu)",
+    price: 699,
+    image: "assets/lbubu.jpg",
+    category: "ADE350"
+  }, {
+    id: 13,
+    title: "Solar Perfume (Bird)",
+    description: "Solar Perfume (Bird)",
+    price: 699,
+    image: "assets/desig.jpg",
+    category: "ADE350"
+  }, {
+    id: 22,
+    title: "Solar Perfume (Puma)",
+    description: "Solar Perfume (Puma)",
+    price: 699,
+    image: "assets/puma.jpg",
+    category: "ADE270"
+  },
+  {
+    id: 23,
+    title: "Solar Perfume (Tank)",
+    description: "Solar Perfume (Tank)",
+    price: 799,
+    image: "assets/tank.jpg",
+    category: "ADE350"
+  },
+  {
+    id: 24,
+    title: "Back Seat Organizer",
+    description: "Back Seat Organizer is a high-quality accessory designed to enhance the look and feel of your car's back seat. Made from premium materials, it provides a comfortable grip and protects the back seat from wear and tear.",
+    price: 270,
+    image: "assets/seatorganizer.jpg",
+    category: "ADE150"
+  },
+  {
     id: 1,
     title: "Multipurpose Foam Cleaner",
     description: "Multi-Purpose Foam Cleaner is a high-performance cleaning solution designed to tackle tough dirt, stains, and grease across a wide range of surfaces.",
@@ -83,9 +173,9 @@ export const products = [
     id: 11,
     title: "Back Seat Organizer",
     description: "Back Seat Organizer is a high-quality accessory designed to enhance the look and feel of your car's back seat. Made from premium materials, it provides a comfortable grip and protects the back seat from wear and tear.",
-    price: 400,
+    price: 700,
     image: "assets/Backseat.png",
-    category: "ADE150"
+    category: "ADE300"
   },
   {
     id: 12,
@@ -95,12 +185,12 @@ export const products = [
     image: "assets/neckrest.jpeg",
     category: "ADE210"
   },
-   {
+  {
     id: 13,
     title: "Crystal Gear Knob 10 cm",
     description: "Crystal Gear Knob available in all colors and sizes",
     price: 699,
-    image: "assets/neckrest.png",
+    image: "assets/crystal-10-bd.png",
     category: "ADE250"
   }
 ];
