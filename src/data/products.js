@@ -5,7 +5,7 @@ export const products = [
     description: "Helicoper Solar Perfume Silver",
     price: 699,
     image: "assets/heliblack.jpg",
-    category: "ADE220"
+    category: "ADE230"
   },
 
   {
@@ -14,7 +14,7 @@ export const products = [
     description: "Solar Perfume (Tyre)",
     price: 799,
     image: "assets/tire.jpg",
-    category: "ADE300"
+    category: "ADE320"
   },
   {
     id: 16,
@@ -22,56 +22,56 @@ export const products = [
     description: "Helicoper Solar Perfume Red",
     price: 699,
     image: "assets/helired.jpg",
-    category: "ADE305"
+    category: "ADE320"
   }, {
     id: 17,
     title: "Intelligent Aromatherapy Solar Perfume Diffuser",
     description: "Intelligent Aromatherapy Solar Perfume Diffuser",
     price: 899,
     image: "assets/roboblue.jpg",
-    category: "ADE410"
+    category: "ADE430"
   }, {
     id: 18,
     title: "Solar Perfume (Flag)",
     description: "Solar Perfume (Flag)",
     price: 699,
     image: "assets/flag.jpg",
-    category: "ADE320"
+    category: "ADE330"
   }, {
     id: 19,
     title: "Design Solar Perfume (Car/ Ship)",
     description: "Design Solar Perfume (Car/ Ship)",
     price: 599,
     image: "assets/carp.jpg",
-    category: "ADE190"
+    category: "ADE200"
   }, {
     id: 20,
     title: "Solar Perfume (Bike)",
     description: "Solar Perfume (Bike)",
     price: 700,
     image: "assets/bike.jpg",
-    category: "ADE440"
+    category: "ADE460"
   }, {
     id: 21,
     title: "Solar Perfume (Lbubu)",
     description: "Solar Perfume (Lbubu)",
     price: 699,
     image: "assets/lbubu.jpg",
-    category: "ADE350"
+    category: "ADE365"
   }, {
     id: 13,
     title: "Solar Perfume (Bird)",
     description: "Solar Perfume (Bird)",
     price: 699,
     image: "assets/desig.jpg",
-    category: "ADE350"
+    category: "ADE365"
   }, {
     id: 22,
     title: "Solar Perfume (Puma)",
     description: "Solar Perfume (Puma)",
     price: 699,
     image: "assets/puma.jpg",
-    category: "ADE270"
+    category: "ADE290"
   },
   {
     id: 23,
@@ -79,7 +79,7 @@ export const products = [
     description: "Solar Perfume (Tank)",
     price: 799,
     image: "assets/tank.jpg",
-    category: "ADE350"
+    category: "ADE370"
   },
   {
     id: 24,
@@ -87,7 +87,7 @@ export const products = [
     description: "Back Seat Organizer is a high-quality accessory designed to enhance the look and feel of your car's back seat. Made from premium materials, it provides a comfortable grip and protects the back seat from wear and tear.",
     price: 270,
     image: "assets/seatorganizer.jpg",
-    category: "ADE150"
+    category: "ADE155"
   },
   {
     id: 1,
@@ -103,7 +103,7 @@ export const products = [
     description: "Universal Armrest is suitable for all the cars and provides extra storage space and comfort.",
     price: 1500,
     image: "../assets/armrest.png",
-    category: "ADE650"
+    category: "ADE660"
   },
   {
     id: 3,
@@ -121,21 +121,21 @@ export const products = [
     image: "assets/cleaner.png",
     category: "ADE090"
   },
-  {
-    id: 5,
-    title: "Dent Remover",
-    description: "Dent Remover is a powerful tool designed to remove dents from vehicles without damaging the paint. Its advanced technology gently pulls the dent out, restoring the original shape of the panel.",
-    price: 155.00,
-    image: "assets/DentRemover.png",
-    category: "ADE080"
-  },
+  // {
+  //   id: 5,
+  //   title: "Dent Remover",
+  //   description: "Dent Remover is a powerful tool designed to remove dents from vehicles without damaging the paint. Its advanced technology gently pulls the dent out, restoring the original shape of the panel.",
+  //   price: 155.00,
+  //   image: "assets/DentRemover.png",
+  //   category: "ADE080"
+  // },
   {
     id: 6,
     title: "Steering Cover",
     description: "Steering Cover is a high-quality accessory designed to enhance the look and feel of your car's steering wheel. Made from premium materials, it provides a comfortable grip and protects the steering wheel from wear and tear.",
     price: 450,
     image: "assets/steering_cover.jpeg",
-    category: "ADE120"
+    category: "ADE130"
   },
   {
     id: 7,
@@ -167,24 +167,24 @@ export const products = [
     description: "Gear Shift Knob is a high-quality accessory designed to enhance the look and feel of your car's gear shift. Made from premium materials, it provides a comfortable grip and protects the gear shift from wear and tear.",
     price: 460,
     image: "assets/gearknob.jpeg",
-    category: "ADE170"
+    category: "ADE450"
   },
-  {
-    id: 11,
-    title: "Back Seat Organizer",
-    description: "Back Seat Organizer is a high-quality accessory designed to enhance the look and feel of your car's back seat. Made from premium materials, it provides a comfortable grip and protects the back seat from wear and tear.",
-    price: 700,
-    image: "assets/Backseat.png",
-    category: "ADE300"
-  },
-  {
-    id: 12,
-    title: "Neck Rest (Memory Foam)",
-    description: "Neck Rest is a high-quality accessory designed to enhance the look and feel of your car's neck rest. Made from premium materials, it provides a comfortable grip and protects the neck rest from wear and tear.",
-    price: 350,
-    image: "assets/neckrest.jpeg",
-    category: "ADE210"
-  },
+  // {
+  //   id: 11,
+  //   title: "Back Seat Organizer",
+  //   description: "Back Seat Organizer is a high-quality accessory designed to enhance the look and feel of your car's back seat. Made from premium materials, it provides a comfortable grip and protects the back seat from wear and tear.",
+  //   price: 700,
+  //   image: "assets/Backseat.png",
+  //   category: "ADE300"
+  // },
+  // {
+  //   id: 12,
+  //   title: "Neck Rest (Memory Foam)",
+  //   description: "Neck Rest is a high-quality accessory designed to enhance the look and feel of your car's neck rest. Made from premium materials, it provides a comfortable grip and protects the neck rest from wear and tear.",
+  //   price: 350,
+  //   image: "assets/neckrest.jpeg",
+  //   category: "ADE210"
+  // },
   {
     id: 13,
     title: "Crystal Gear Knob 10 cm",
