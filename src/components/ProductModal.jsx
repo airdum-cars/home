@@ -29,7 +29,7 @@ const ProductModal = ({ product, onClose, onNext, onPrev }) => {
 
   const handleAddToCart = () => {
     const message = `Hello, I'm interested in buying: ${product?.title} (₹${product?.price?.toFixed(2)})`;
-    window.open(`https://wa.me/8901508919?text=${encodeURIComponent(message)}`, '_blank');
+    window.open(`https://wa.me/918901508919?text=${encodeURIComponent(message)}`, '_blank');
   };
 
   if (!product) return null;
