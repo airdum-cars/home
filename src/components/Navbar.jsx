@@ -21,7 +21,7 @@ const Navbar = () => {
             className="btn btn-outline"
             onClick={() => {
               const message = "Hello Airdum Enterprises, I have a query regarding your car accessories.";
-              window.open(`https://wa.me/8901508919?text=${encodeURIComponent(message)}`, '_blank');
+              window.open(`https://wa.me/918901508919?text=${encodeURIComponent(message)}`, '_blank');
             }}
           >
             Contact Us
